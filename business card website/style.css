@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Padauk&display=swap');
+
 * {
   box-sizing: border-box;
-}
-
-.container {
-  width: 580px;
-  margin: 0 auto;
 }
 
 .page {
@@ -21,6 +17,12 @@
   background-color: #eae9f2;
 }
 
+.container {
+  width: 580px;
+  margin: 0 auto;
+}
+
+
 .section-title {
   width: 100%;
   margin: 0;
@@ -32,11 +34,13 @@
 }
 
 a {
-  color: #6653d9;
+    color: #6653d9;
+    text-decoration: none;
 }
 
 a:focus {
   outline-color: #b6aaff;
+
 }
 
 .page-header {
@@ -142,12 +146,6 @@ a:focus {
   margin-bottom: 82px;
 }
 
-.contacts img {
-  width: 146px;
-  height: 146px;
-  margin-right: 24px;
-}
-
 .contacts p {
   margin: 0;
   margin-bottom: 12px;
@@ -186,6 +184,8 @@ p.contacts-name {
   margin: 0;
   padding: 0;
 }
+
+
 
 /* Тёмная тема */
 .dark-theme {
